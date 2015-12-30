@@ -1,3 +1,7 @@
+html, body {
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
   overflow-x: hidden!important;
 }
@@ -132,6 +136,14 @@ section#footer {
   text-decoration: none;
 }
 
+#hero a.cta-btn {
+  text-align: center;
+
+-webkit-animation: fadeInUp 2s;
+  animation: fadeInUp 2s;
+}
+
+
 #hero a.cta-btn:hover {
   background: white;
   color: #ccc;
@@ -217,7 +229,7 @@ h2.title {
 }
 #products span.bottom-products-separator {
   position: absolute;
-  bottom: 100px;
+  bottom: 180px;
   text-align: center;
   width: 180px;
   /* min-width: 120%; */
@@ -230,17 +242,44 @@ h2.title {
 
 
 .products-holder div:nth-child(-n+3) {
-  background: blue;
+  background: rgba(0, 0, 0, .8);
   height: 420px;
   padding: 0;
   width: 31.5%;
   margin: 0 auto;
 }
 
+.products-holder h4 {
+  position: absolute;
+  color: white;
+  top:0;
+  right: 0;
+  left:0;
+  bottom:0;
+  padding-top: 120px;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  margin-top: 45px;
+  border: 3px solid white;
+
+  font-size: 30px;
+  font-weight: 400!important;
+  font-style: italic;
+  font-family: 'Open Sans';
+}
+
 .products-holder div:nth-last-child(-n+2) {
-  /*background: red;*/
+  /*background: rgba(0, 0, 0, .8);*/
   margin-top: 30px;
   height: 420px;
+}
+
+.products-holder a img {
+  opacity: .5;
+}
+.products-holder a:hover img{
+  opacity: 1;
 }
 
 
@@ -299,4 +338,13 @@ h2.title {
 .heart {
   color: red;
   font-size: 20px;
+}
+
+
+
+
+
+.hero-anim {
+-webkit-animation: fadeInDown 2s ease-out;
+  animation: fadeInDown 2s ease-out;
 }
