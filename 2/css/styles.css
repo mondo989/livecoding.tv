@@ -1,0 +1,287 @@
+/* #494f55 */
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  overflow-x: hidden!important;
+}
+
+
+section {
+  padding: 60px 0;
+}
+
+#hero {
+  height: 400px;
+  background: url('../img/cover-photo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#main-content {
+  color: #494f55;
+  position: relative;
+}
+#quote {
+  background: #616365;
+}
+#skills {
+  background: #393e42;
+}
+#work {
+  background: rgba(0, 0, 0, 0.5);
+}
+#blog{
+  background: url('../img/blur.png');
+  padding: 120px 0;
+}
+#work h1, #contact h1, #blog h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+#contact {
+  background: #393e42;
+}
+
+#contact h5, #contact h4 {
+  color: white;
+}
+#contact h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+#contact h5 {
+  font-weight: bold;
+  font-size: 20px;
+  opacity: .4;
+}
+#contact h7 {
+  color: white;
+  font-size: 18px;
+}
+span.line {
+  height: 2px;
+  border-radius: 9px;
+  margin: 40px 0;
+  display: block;
+  max-width: 450px;
+  background: white;
+}
+a.send {
+  display: block;
+  text-align: right;
+  max-width: 450px;
+  color: red;
+  margin-right: 40px;
+  font-size: 20px;
+}
+.map {
+  float: right;
+  height: 270px;
+}
+
+#work img {
+  height: 225px;
+  width: 100%;
+  -webkit-filter: grayscale(1);
+ filter: grayscale(1);
+
+-webkit-transition: 1s;
+ transition: 1s;
+}
+
+#work img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+#quote h1 {
+  font-style: italic;
+  color: white;
+}
+#quote h3 {
+  color: white;
+}
+#skills h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+#skills h1.happy {
+  margin-top: 60px;
+  text-transform: none;
+  color: #939585;
+  font-weight: bold;
+}
+.white {
+  color: white;
+  text-decoration: underline;
+}
+#skills span.circle {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 120px;
+  border: 2px solid #939585;
+}
+#skills span.circle img {
+  margin-top: 30px;
+}
+
+#main-content h1 {
+  margin-top: -20px;
+  font-size: 52.5px;
+  text-indent: 8px;
+  font-weight: bold;
+}
+#main-content h1 span {
+  font-weight: 200!important;
+  margin-left: 10px;
+}
+#main-content .hello-content p  {
+  padding-left: 10px;
+  max-width: 900px;
+}
+
+
+#hero h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 300;
+}
+#hero h1 span {
+  font-size: 18px;
+  font-weight: 300!important;
+}
+.author-holder {
+  position: absolute;
+  bottom:0;
+  margin-bottom: 20px;
+}
+
+.main-head {
+  border-radius: 120px;
+  border: 8px solid white;
+  text-align: center;
+  margin:0 auto!important;
+}
+.head-holder {
+  text-align: right;
+  position: absolute;
+  bottom:0;
+  margin-left: 30px;
+  margin-bottom: -115px;
+}
+ul.social-icons {
+  text-indent: 0;
+  padding-left: 10px;
+
+}
+ul.social-icons li {
+  display: inline-block;
+  background: #70777d;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+ul.social-icons li a {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  right: 0;
+  left: 0;
+  bottom:0;
+}
+ul.social-icons li i {
+  font-size: 17.5px;
+  color: white;
+  margin-top: 7.5px;
+}
+.signature {
+  margin-top: -20px;
+}
+
+
+.navigation-holder {
+  position: absolute;
+  top:30px;
+  right: 17%;
+  margin-top: 40px;
+  list-style: none;
+}
+
+.navigation-holder li a.active {
+  font-weight: bold;
+ }
+
+.navigation-holder li a {
+  font-size: 15px;
+  margin: 9px 0;
+  font-weight: 300;
+  display: inline-block;
+  color: #393e42;
+}
+
+.skills-holder {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.skills-holder h3, .skills-holder p {
+  color: white;
+}
+.skills-holder h3 {
+  text-transform: uppercase;
+}
+
+.carousel-btns {
+  margin: 0 auto;
+
+}
+
+.fa-circle {
+  margin-right: 7px;
+}
+.fa-circle-thin {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 7px;
+}
+
+.carousel-btns ul {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.carousel-btns ul li {
+  display: inline;
+
+}
+
+.carousel-btns ul li i {
+  color: white;
+  font-size: 15px;
+}
+
+.bottom-row {
+  margin-top: 30px;
+}
+
+
+
+@media (max-width: 991px) {
+  .head-holder {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    background: red;
+    top:0;
+  }
+}
