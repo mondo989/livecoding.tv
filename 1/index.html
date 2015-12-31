@@ -20,11 +20,11 @@
 
   <section id="hero">
     <div class="row text-center hero-anim">
-      <h3>Spring / Summer Collection</h3>
+      <h3 id="product-trigger">Spring / Summer Collection</h3>
       <h1>Up To 60% Discount new Arrivals </h1>
       <h3>Trending new items, from creators around the world</h3>
     </div>
-      <a href="#" class="cta-btn">Shop Now</a>
+      <a href="#" class="cta-btn cta-anim">Shop Now</a>
   </section>
 
 <br>
@@ -32,13 +32,14 @@
 <br>
   <section id="products">
     <div class="container">
+      <span class="latest-products-holder">
         <span class="red-separator"></span>
           <h2 class="title">Latest Products</h2>
         <span class="red-separator"></span>
-<br>
-<br>
-<br>
-
+      </span>
+          <br>
+          <br>
+          <br>
         <div class=" text-center row products-holder">
           <div class="col-sm-4">
             <a href="#">
@@ -67,7 +68,7 @@
               <img class="img-responsive" src="img/girl-cabin.png" alt="">
             </a>
           </div>
-          <div class="col-sm-6" style="padding-right:0; ">
+          <div id="trending-trigger" class="col-sm-6" style="padding-right:0; ">
               <span class="products-separator"></span>
                 <span class="copy">MEGA <p> ON ITEMS FROM </p> SPIRIT COLLECTION</span>
               <span class=" bottom-products-separator"></span>
@@ -78,13 +79,15 @@
   </section>
     <section id="trending">
       <div class="container">
-        <span class="red-separator"></span>
-          <h2 class="title">Trending items</h2>
-        <span class="red-separator"></span>
-
-
+        <span class="trending-items-holder">
+          <span class="trending-holder" >
+            <span class="red-separator"></span>
+              <h2 class="title">Trending items</h2>
+            <span class="red-separator"></span>
+          </span>
+        </span>
         <div class="row" style="margin-top: 40px;">
-          <div class="col-sm-6">
+          <div class="col-sm-6 img-holder">
             <img class="img-responsive" src="img/blazer.png" alt="">
           </div>
           <div class="clothing-content col-md-6">
@@ -96,7 +99,7 @@
                 Simple lines,lovely texture,it suits almost everybody.
                 It comes in six different colors,and all sizes.
               <br>
-                <span class="fashion uppercase">FASHION TIP:</span>
+                <span id="blog-trigger" class="fashion uppercase">FASHION TIP:</span>
                 With this jacket,Nathan Stewart sunglasses go hand in hand!
               </p>
               <div class="row top-row">
@@ -125,17 +128,16 @@
         </div>
       </div>
     </section>
-<br>
-<br>
     <section id="blog">
-      <div class="container">
-
-        <span class="red-separator"></span>
-          <h2 class="title">From the Blog</h2>
-        <span class="red-separator"></span>
+      <div id="test" class="container">
+        <span class="blog-holder">
+          <span class="red-separator"></span>
+            <h2 class="title">From the Blog</h2>
+          <span class="red-separator"></span>
+        </span>
       <br>
       <br>
-        <div class="row">
+        <div class="row blog-content-holder">
           <div class="col-md-6">
             <img class="img-responsive" src="img/masks.png" alt="">
             <h4>GERMAN FASHION WIZARDS</h4>
@@ -185,5 +187,13 @@
   </body>
 
   <script type="text/javascript" src="js/jquery.min.js"></script>
+
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/zepto.waypoints.js"></script>
+  <script type="text/javascript" src="js/waypoints.js"></script>
+
+  <script>
+
+  </script>
+
 </html>
