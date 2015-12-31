@@ -11,3 +11,7 @@
     console.log("Heyy beautifullz")
     document.getElementById("blog").classList.add("active");
   });
+
+  $('#blog').waypoint( function(){
+    document.getElementById("newsletter").classList.add("active");
+  });
