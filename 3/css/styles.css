@@ -1,0 +1,156 @@
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
+section {
+  padding: 350px 0;
+}
+
+#hero {
+  position: relative;
+  z-index: -2;
+  padding: 450px 0;
+  background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5d5e63+42,393f4d+100 */background: #5d5e63;
+ /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #5d5e63 42%, #393f4d 100%);
+ /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  #5d5e63 42%,#393f4d 100%);
+ /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  #5d5e63 42%,#393f4d 100%);
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d5e63', endColorstr='#393f4d',GradientType=1 );
+ /* IE6-9 fallback on horizontal gradient */
+}
+
+#hero h1 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  text-align: center;
+  font-size: 170px;
+  font-weight: bold;
+  position: absolute;
+  top: 15%;
+  right: 0;
+  left: 0;
+  opacity: .75;
+}
+
+.left-divider {
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: -1;
+}
+
+.right-divider {
+  background: rgba(0, 0, 0, 0.45);
+  -webkit-filter: grayscale(10);
+  filter: grayscale(10);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: -1;
+}
+
+#hero h1{
+-webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+}
+
+.zero, .one {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 300px;
+  margin-top: 50px;
+}
+
+.right-divider .one {
+  opacity: .025;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  margin-left: 30px;
+}
+
+.left-divider .zero {
+  opacity: .025;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  margin-right: 30px;
+}
+
+.motorcycle {
+  position: absolute;
+  max-width: 900px;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  bottom: 200px;
+}
+.motorcycle.anim {
+-webkit-animation: fadeInLeft 1s;
+  animation: fadeInLeft 1s;
+}
+
+i.ion-navicon {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  margin-top: 30px;
+  opacity: .4;
+}
+
+.hero-buttons-holder{
+  position: absolute;
+  bottom:0;
+  right: 0;
+  left:0;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto!important;
+  display: block;
+  z-index: 9000;
+}
+
+.hero-buttons-holder.anim {
+-webkit-animation: fadeInUp 2s;
+  animation: fadeInUp 2s;
+}
+
+.hero-buttons-holder a {
+  width: 50%;
+  padding: 20px 30px;
+  display: inline-block;
+  float: left;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  background: #393f4d;
+  color: white;
+  font-weight: 500;
+}
+.hero-buttons-holder a:first-child{
+  background: #feda6a;
+  color: black;
+}

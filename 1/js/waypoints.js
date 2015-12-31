@@ -12,6 +12,6 @@
     document.getElementById("blog").classList.add("active");
   });
 
-  $('#blog').waypoint( function(){
+  $('#newsletter-trigger').waypoint( function(){
     document.getElementById("newsletter").classList.add("active");
   });

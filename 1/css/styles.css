@@ -125,13 +125,13 @@ section#trending .trending-items-holder > * {
   -webkit-filter: grayscale(1);
     filter: grayscale(1);
 
-  -webkit-transition: .7s;
-    transition: .7s;
+  -webkit-transition: .4s;
+    transition: .4s;
 
 }
 .blog-content-holder img:hover {
   -webkit-filter: grayscale(0);
-    filter: grayscale(0)
+    filter: grayscale(0);
 }
 
 
