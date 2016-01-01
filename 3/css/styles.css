@@ -6,8 +6,12 @@
   background: blue;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 section {
-  padding: 350px 0;
+  padding: 60px 0;
 }
 
 #hero {
@@ -25,7 +29,14 @@ section {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d5e63', endColorstr='#393f4d',GradientType=1 );
  /* IE6-9 fallback on horizontal gradient */
 }
+#legend {
+  background: #1a1b1f;
+  padding: 190px 0 80px 0;
+  background: #1a1b1f;
+  z-index: -10;
+  position: relative;
 
+}
 #hero h1 {
   font-family: 'Playfair Display', serif;
   color: white;
@@ -37,6 +48,59 @@ section {
   right: 0;
   left: 0;
   opacity: .75;
+}
+#legend h1 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  text-align: left;
+  font-size: 70px;
+}
+
+a.cta-btn {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-decoration: none;
+  padding: 20px 30px;
+
+-webkit-transition: 1s;
+  transition: 1s;
+}
+a.cta-btn:hover {
+  background: black;
+  color:white;
+}
+
+.fa-twitter {
+  font-size: 180px;
+  opacity: .05;
+  position: absolute;
+  left:0;
+  margin-left: 20px;
+  bottom:0;
+}
+
+#legend a.cta-btn {
+  width: 200px;
+  float: right;
+  margin-right: 120px;
+  margin-top: 40px;
+  text-align: center;
+  background: white;
+  color: black;
+  font-weight: bold;
+
+
+}
+#legend img:nth-child(2) {
+  display: block;
+  width: 760px;
+  position: absolute;
+  top:0;
+  left:-160px;
+  z-index: -1;
+}
+#legend img:first-child {
+  width: 100%;
 }
 
 .left-divider {
@@ -67,6 +131,8 @@ section {
 -webkit-animation: fadeIn 2s;
   animation: fadeIn 2s;
 }
+
+
 
 .zero, .one {
   font-family: 'Oswald', sans-serif;
@@ -128,10 +194,12 @@ i.ion-navicon {
   left:0;
   text-align: center;
   width: 80%;
-  margin: 0 auto!important;
+  margin: 0 auto;
   display: block;
   z-index: 9000;
+  margin-bottom: -30px;
 }
+
 
 .hero-buttons-holder.anim {
 -webkit-animation: fadeInUp 2s;
@@ -153,4 +221,127 @@ i.ion-navicon {
 .hero-buttons-holder a:first-child{
   background: #feda6a;
   color: black;
+}
+
+.tweet-holder {
+  background: white;
+  width: 290px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  position: relative;
+  box-shadow: 25px -20px 0 #eecd63;
+}
+
+.tweet-holder blockquote {
+  width:95%;
+  font-weight: 200;
+  margin: 0 auto;
+  margin-top: 15px!important;
+  opacity: .8;
+  text-align: left;
+  border-left: 0;
+}
+.tweet-holder h4 {
+  text-align: right;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+
+.quote-holder {
+  position: relative;
+}
+
+.quote-holder img {
+  width: 120px;
+}
+
+.quote-holder blockquote{
+  color: white;
+  border-left: 0;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  opacity: .6;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-top: 140px;
+}
+
+
+.quote-left, .quote-right {
+  background-repeat: no-repeat!important;
+  width: 120px;
+  height: 120px;
+  margin-top: -80px;
+  position: absolute;
+  opacity: .05;
+}
+
+.quote-right {
+  background: url("../img/quo-2.png");
+
+  position: absolute;
+  right: 13%;
+
+}
+.quote-left {
+  background: url("../img/quo-1.png");
+
+  left: 13%;
+  right: 0;
+}
+
+
+.funny-box {
+  position: absolute;
+  left: 0;
+  margin-left: 70px;
+  margin-top: -40px;
+  top: 0;
+  height: 520px;
+  width: 300px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+#video-section {
+  padding-top: 0;
+  width: 1500px;
+  height: 330px;
+  overflow-x: hidden!important;
+  overflow-y: hidden;
+  margin: 0 auto!important;
+  font-size: 0;
+}
+
+
+#video-section img {
+  width: 350px;
+  display: inline-block;
+  margin: 0;
+  padding:0;
+  height: 300px;
+  z-index: -100!important;
+-webkit-transition: .5s;
+  transition: .5s;
+}
+
+#video-section .img-holder {
+  position: relative;
+  display: inline-block;
+}
+
+.img-holder img {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+}
+
+.img-holder img:hover {
+-webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+  z-index: 9000000!important;
+  border: 20px solid #fee372;
 }
