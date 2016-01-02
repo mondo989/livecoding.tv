@@ -4,18 +4,20 @@
   <meta charset="UTF-8">
   <title>The Motorcycle Page</title>
 
-
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+
+
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
     <body>
-
         <section id="hero">
           <i class="ion-navicon"></i>
           <div class="container-fluid">
@@ -68,29 +70,76 @@
           </div>
         </section>
 
-
         <section id="video-section">
-            <span class="img-holder">
-              <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fb%2Fb1%2FArmy_National_Guard_motorcycle_riders.jpg&f=1" alt="">
-            </span>
+          <div class="motorcycleCarousel" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+             <div>
+               <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.motorcycle.com%2Fwp-content%2Fuploads%2F2009%2F02%2Fwomen-riding-harley-davidson.jpg&f=1" alt="">
+             </div>
+             <div>
+               <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.motorcycle.com%2Fwp-content%2Fuploads%2F2009%2F02%2Fwomen-riding-harley-davidson.jpg&f=1" alt="">
+             </div>
+             <div>
+               <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.motorcycle.com%2Fwp-content%2Fuploads%2F2009%2F02%2Fwomen-riding-harley-davidson.jpg&f=1" alt="">
+             </div>
 
-            <span class="img-holder">
-              <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.motorcycle.com%2Fwp-content%2Fuploads%2F2009%2F02%2Fwomen-riding-harley-davidson.jpg&f=1" alt="">
-            </span>
+             <div>
+               <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.motorcycle.com%2Fwp-content%2Fuploads%2F2009%2F02%2Fwomen-riding-harley-davidson.jpg&f=1" alt="">
+             </div>
 
-            <span class="img-holder">
-              <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.motorcycle.com%2Fwp-content%2Fuploads%2F2009%2F02%2Fwomen-riding-harley-davidson.jpg&f=1" alt="">
-            </span>
+             <div>
+               <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.motorcycle.com%2Fwp-content%2Fuploads%2F2009%2F02%2Fwomen-riding-harley-davidson.jpg&f=1" alt="">
+             </div>
+          </div>
 
-            <span class="img-holder">
-              <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.womenridersnow.com%2Fblog%2Fwp-content%2Fuploads%2F2013%2F01%2F1.TR3_3457.jpg&f=1" alt="">
-            </span>
+        </section>
 
-            <span class="img-holder">
-              <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fcyrilhuzeblog.com%2Fwp-content%2Fuploads%2F1womenriders.jpg&f=1" alt="">
-            </span>
-            <!-- <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.hdopenroad.com%2Fwp-content%2Fuploads%2F2009%2F07%2Fwomanrider1.jpg&f=1" alt=""> -->
+        <section id="gallery">
+          <div class="row text-center">
+            <div class="col-md-offset-1 col-md-3">
+              <a class="cta-btn" href="#">Featured Styles</a>
+            </div>
+            <div class="col-md-4 relative">
+              <span class="funny-rectangle-box">
+                <i class="ion-chevron-down"></i>
+                <i class="ion-chevron-down"></i>
+              </span>
+              <h2>Shop ACcessories</h2>
+            </div>
+            <div class="col-md-3">
+              <a class="cta-btn" href="#">Collections</a>
+            </div>
+          </div>
+          <div class="row all-accessory-holder">
+            <div class="col-md-3">
+              <span class="accessory-holder">
+                <img src="img/a.png" alt="">
+                <h4>Exhaust</h4>
+              </span>
+            </div>
+            <div class="col-md-3">
+              <span class="accessory-holder">
+                <img src="img/b.png" alt="">
+                <h4>Exhaust</h4>
+              </span>
+            </div>
+            <div class="col-md-3">
+              <span class="accessory-holder">
+                <img src="img/3.png" alt="">
+                <h4>Exhaust</h4>
+              </span>
+            </div>
+            <div class="col-md-3">
+              <span class="accessory-holder">
+                <img src="img/d.png" alt="">
+                <h4>Exhaust</h4>
+              </span>
+            </div>
+          </div>
 
+
+          <span class="accessories-bk-content">
+            Accessories
+          </span>
         </section>
 
 
@@ -100,7 +149,24 @@
 <br><br><br>
 
 
+
     </body>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.motorcycleCarousel').slick({
+        centerMode: true,
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false
+      });
+    });
+  </script>
+
+
 </html>

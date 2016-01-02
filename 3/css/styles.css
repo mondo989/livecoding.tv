@@ -31,12 +31,60 @@ section {
 }
 #legend {
   background: #1a1b1f;
-  padding: 190px 0 80px 0;
+  padding: 190px 0 160px 0;
   background: #1a1b1f;
   z-index: -10;
   position: relative;
-
 }
+#gallery {
+  background: #fee372;
+  padding-bottom: 300px;
+  position: relative;
+}
+
+#gallery a {
+  background: black;
+  color: white;
+}
+#gallery h2  {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: -5px;
+}
+
+.relative {
+  position: relative;
+}
+.funny-rectangle-box {
+  position: absolute;
+  top:-50px;
+  right:0;
+  left:0;
+  bottom:0;
+  margin: 0 auto;
+  border: 3px solid #feda6a;
+  height: 120px;
+  width: 70px;
+}
+.funny-rectangle-box i{
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.25);
+}
+.funny-rectangle-box i:first-child {
+  position: absolute;
+  bottom: 15px;
+  right:0;
+  left:0;
+}
+.funny-rectangle-box i:nth-child(2) {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  left:0;
+}
+
+
+
 #hero h1 {
   font-family: 'Playfair Display', serif;
   color: white;
@@ -77,6 +125,20 @@ a.cta-btn:hover {
   left:0;
   margin-left: 20px;
   bottom:0;
+}
+
+.accessories-bk-content {
+  position: absolute;
+  bottom: -100px;
+  font-size: 250px;
+  right: 0;
+  letter-spacing: 0px;
+  left:0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.08);
+  /*color: #fee070;*/
+  margin: 0 auto;
+  font-family: 'Playfair Display', serif;
 }
 
 #legend a.cta-btn {
@@ -305,17 +367,24 @@ i.ion-navicon {
 
 
 #video-section {
+  margin-top: 0;
   padding-top: 0;
-  width: 1500px;
-  height: 330px;
-  overflow-x: hidden!important;
-  overflow-y: hidden;
   margin: 0 auto!important;
   font-size: 0;
+  /*background: #fee372;*/
 }
 
 
-#video-section img {
+
+/*.img-holder img:hover {
+-webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+  z-index: 9000000!important;
+  border: 20px solid #fee372;
+}*/
+
+#video-section .img-holder img {
   width: 350px;
   display: inline-block;
   margin: 0;
@@ -337,11 +406,60 @@ i.ion-navicon {
   left: 0;
   bottom:0;
 }
+.motorcycleCarousel div img {
+    width: 100%;
+}
 
-.img-holder img:hover {
--webkit-transform: scale(1.2);
-  transform: scale(1.2);
+.motorcycleCarousel div .slick-current img {
+  border: 20px solid #feda6a;
+}
 
-  z-index: 9000000!important;
-  border: 20px solid #fee372;
+.slick-current {
+  -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 9000000!important;
+
+}
+
+
+
+
+div.slick-list.draggable {
+  height: 500px;
+  padding-top: 130px !important;
+  padding-bottom: 500px !important;
+  margin-top: -155px;
+  background: transparent!important;
+}
+
+.all-accessory-holder {
+  margin-top: 80px;
+}
+
+.accessory-holder {
+  display: block;
+  position: relative;
+  background: #feda6a;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.125);
+  width: 75%;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.accessory-holder h4 {
+  position: absolute;
+  font-size: 12px;
+  bottom: 30px;
+  text-transform: uppercase;
+  right:0;
+  left:0;
+  text-align: center;
+}
+
+.accessory-holder img {
+  width: 140%;
+  max-width: 230px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
 }
