@@ -1,0 +1,139 @@
+
+
+
+
+#hero {
+  position: relative;
+  padding: 180px 0;
+  background: url("https://a1.muscache.com/airbnb/static/jobs/new/hero/hero-life-7f0bbaa4f322942b10dd48634076f073.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#hero h1 {
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+#threes {
+  background: #f5f5f5;
+  padding: 60px 0;
+}
+
+
+#together {
+  padding-top: 45px;
+}
+
+
+#together h2, #together p {
+  width: 80%;
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+#together h2 {
+  margin: 30px auto;
+}
+
+#together p {
+  margin-bottom: 40px;
+}
+
+#together .top-space {
+  padding-top: 80px;
+}
+
+#together .top-space h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+
+#learn {
+  padding: 60px 0;
+  background: #f5f5f5;
+}
+
+#learn h2 {
+  margin-bottom: 30px;
+}
+#learn .learn-holder p {
+  width: 55%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.7;
+}
+
+
+
+#apply {
+  padding: 120px 0;
+  background: #ffb400;
+}
+#apply h2, #apply p {
+  color: white;
+}
+#apply .cta-btn {
+  background: white;
+  color: black;
+  display: inline-block;
+  width: 300px;
+  padding:10px 0;
+
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid #dce0e0;
+
+  text-decoration: none;
+}
+
+
+
+
+.learning-box {
+  background: #f3f3f3;
+  border: 1px solid #dce0e0;
+}
+
+.learn-holder-row {
+  background: red;
+  margin: 10px 0;
+}
+.learn-holder-row img {
+  border-radius: 120px;
+  width: 75px;
+  height: 75px;
+  border: 2px solid white;
+}
+
+.learn-holder-row .learning-box {
+  padding: 25px 5px 10px 5px;
+  background: white;
+}
+
+ul.mini-nav {
+  position: absolute;
+  background: #565a5c;
+  width: 100%;
+  padding: 12.5px 0;
+  /*height: 40px;*/
+  top:0;
+  left:0;
+  right:0;
+  text-indent: 120px;
+}
+
+ul.mini-nav li{
+  display: inline;
+  margin: 0 12.5px;
+}
+
+ul.mini-nav li a {
+  color: white;
+}
