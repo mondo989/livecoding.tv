@@ -46,6 +46,42 @@ section {
   z-index: -10;
   position: relative;
 }
+
+#legend .left-div {
+  opacity: 0;
+}
+#legend .tweet-holder {
+  opacity: 0;
+}
+#legend img.mapLayout {
+  opacity: .25!important;
+}
+
+#legend.active {
+  z-index: -100;
+}
+
+#legend.active img.mapLayout{
+
+-webkit-transition: 1s;
+  transition: 1s;
+  opacity: 1!important;
+}
+
+#legend.active .left-div {
+  -webkit-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+  opacity: 1;
+
+}
+
+#legend.active .tweet-holder {
+-webkit-animation: fadeInRight 1s;
+  animation: fadeInRight 1s;
+
+  opacity: 1;
+}
+
 #gallery {
   background: #feda6a;
   padding-bottom: 300px;
@@ -274,9 +310,30 @@ a.cta-btn:hover {
   bottom: 200px;
 }
 .motorcycle.anim {
--webkit-animation: fadeInLeft 1s;
-  animation: fadeInLeft 1s;
+-webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
 }
+
+.motorcycle.rideOut {
+-webkit-animation: fadeOutRight 2s;
+  animation: fadeOutRight 2s;
+  opacity: 0;
+}
+
+#motorcycle-trigger {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right:0;
+  left:0;
+
+  margin: 0 auto;
+  margin-top: 390px;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+}
+
 
 i.ion-navicon {
   color: white;
@@ -301,13 +358,29 @@ i.ion-navicon {
   display: block;
   z-index: 9000;
   margin-bottom: -30px;
+
+  display: none;
 }
 
+#legend-trigger {
 
+  height: 20px;
+  width: 120px;
+  position: absolute;
+  margin-top: -100px;
+}
+
+.hero-buttons-holder.active {
+  display: block;
+
+  -webkit-animation: fadeInUp 1s;
+    animation: fadeInUp 1s;
+}
+
+/*
 .hero-buttons-holder.anim {
--webkit-animation: fadeInUp 2s;
-  animation: fadeInUp 2s;
-}
+
+}*/
 
 .hero-buttons-holder a {
   width: 50%;
@@ -560,8 +633,8 @@ ul.social-media-links li i {
 }
 
 .navbar.anim > * {
--webkit-animation: fadeInLeftBig 1s;
-  animation: fadeInLeftBig 1s;
+-webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
 }
 
 .bike-name-holder h3 {

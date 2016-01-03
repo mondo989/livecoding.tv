@@ -4,8 +4,7 @@
 
   <!--
     Mad Props to the artists of Kreativa Studio
-  http://www.kreativa-studio.com
-  
+    http://www.kreativa-studio.com
     https://dribbble.com/shots/2227454-Vintage-Rides-Concept  -->
   <meta charset="UTF-8">
   <title>The Motorcycle Page</title>
@@ -25,7 +24,6 @@
 
 </head>
     <body>
-
       <nav class="navbar anim">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -62,10 +60,12 @@
         <section id="hero">
           <i class="ion-navicon"></i>
           <div class="container-fluid">
-            <h1>Indian</h1>
-              <img class="motorcycle anim" src="img/motorcycle.png" alt="">
+            <h1 id="cta-btns-trigger">Indian</h1>
+            <span id="motorcycle-trigger"></span>
+            <img id="motorcycle" class="motorcycle anim" src="img/motorcycle.png" alt="">
 
             <span class="bike-name-holder anim">
+              <span id="legend-trigger"></span>
               <h3 class="oswald">Scout</h3>
               <span class="funny-rectangle-box">
                 <i class="ion-chevron-down"></i>
@@ -81,7 +81,7 @@
             </span>
 
 
-            <div class="hero-buttons-holder anim oswald">
+            <div id="cta-hero-buttons-holder" class="hero-buttons-holder oswald">
               <a href="#">Overview</a>
               <a href="#">Specs</a>
             </div>
@@ -91,7 +91,7 @@
         <section id="legend">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 left-div">
                 <h1>A Legend is Built One Rider at a time</h1>
                 <a class="cta-btn" href="#">Customize your score</a>
                 <span class="funny-box"></span>
@@ -105,7 +105,7 @@
                   <i class="fa fa-twitter"></i>
                 </div>
 
-                  <img class"mapLayout" src="img/map-2.png" alt="">
+                  <img class="mapLayout" src="img/map-2.png" alt="">
               </div>
             </div>
             <div class="row quote-holder">
@@ -233,6 +233,8 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+    <script type="text/javascript" src="js/zeptos.waypoints.js"></script>
+    <script type="text/javascript" src="js/waypoints.js"></script>
 
 
   <script type="text/javascript">
