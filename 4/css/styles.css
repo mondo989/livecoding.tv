@@ -308,26 +308,126 @@ body {
   position: fixed;
   background: #565a5c;
   padding: 12.5px 0;
-  top:0;
+  top: 61px;
   right:0;
   left:0;
   z-index: 1;
 
--webkit-transition: 1s;
-  transition: 1s;
+-webkit-transition: .5s;
+  transition: .5s;
 }
 
-ul.mini-nav {
+.subnav.sticky {
+  top: 0;
+}
 
+
+
+
+.main-logo {
+  display: inline-block;
+  line-height: 61px;
+  height: 61px;
+  /*border:  1px solid #dce0e0;*/
+  border-right: 1px solid #dce0e0;
+  border-left: 1px solid #dce0e0;
+  margin-left: -2px;
+  margin-right: -2px;
+  width: 70px;
+  text-align: center;
+}
+
+
+.main-logo img {
+  width: 30px;
+  height: auto;
+}
+
+.main-nav {
+  width: 100%;
+  background: white;
+  display: block;
+  height: 61px;
+  position: absolute;
+  top:0;
+  border: 1px solid #dce0e0;
+}
+
+.main-nav-links {
+  display: inline-block;
+}
+
+.main-nav .profile-img {
+  border-radius: 120px;
+  height: 30px;
+  width: 30px;
+  border: 2px solid #bbb;
+  margin-left: 5px;
+}
+
+.main-nav-links li  {
+  display: inline-block;
+  background: white;
+  line-height: 61px;
+  padding: 0 20px;
+  height: 61px;
+  border-left: 1px solid #dce0e0;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.main-nav-links li img {
+  width: 25px;
+  height: auto;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.main-nav-links li img.home-img {
+  margin-top: -2px;
+}
+.main-nav-links li img.help-img {
+  margin-top: -2px;
+}
+
+.main-nav-links li a {
+  color: #565a5c;
+  text-decoration: none;
+}
+
+
+.main-input-holder {
+  background: white;
+  position: relative;
+  display: inline-block;
+  text-indent: 40px;
+}
+
+.main-search-input {
+  display: inline-block;
+  height: 61px;
+
+  background: white;
+  border: 0!important;
+}
+.main-input-holder i {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  text-indent: 0;
+  top:16px;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 25px;
+}
+
+
+
+ul.mini-nav {
   width: 1045px;
   margin: 0 auto;
-
-  /*height: 40px;*/
   top:0;
   left:0;
   right:0;
-  /*text-indent: 120px;*/
-  /*letter-spacing: .7px;*/
   font-weight: 400;
 
 -webkit-transition: 1s ease-out;

@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Airbnb Careers Remake</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -17,8 +18,23 @@
 
 
       <section id="hero">
+        <div class="main-nav">
+          <a class="main-logo" href="#"><img src="img/icons/airbnb-logo.png" alt=""></a>
+          <span class="main-input-holder">
+            <i class="ion-ios-search"></i>
+            <input class="main-search-input" type="text" placeholder="Where are you going?">
+          </span>
+          <ul id="main-nav-trigger" class="main-nav-links pull-right">
+            <li><a href="#">Home</a><img class="home-img" src="img/icons/home.png" alt=""></li>
+            <li><a href="#">Messages</a><img src="img/icons/message.png" alt=""></li>
+            <li><a href="#">Help</a><img class="help-img" src="img/icons/lifesaver.png" alt=""></li>
+            <li><a id="navbar-trigger" href="#">Armando</a>
+              <img class="profile-img" src="https://a2.muscache.com/ic/users/27663497/profile_pic/1423781817/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=50:*&output-format=jpg&output-quality=70" alt="" /></li>
+          </ul>
+        </div>
+
         <div class="container">
-          <div class="subnav">
+          <div id="subnav-nav" class="subnav">
             <ul class="mini-nav">
               <li><a class="active" href="#">Welcome</a></li>
               <li><a href="#">Departments</a></li>
@@ -359,7 +375,7 @@
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
-  <!-- <script type="text/javascript" src="js/zeptos.waypoints.js"></script>
-  <script type="text/javascript" src="js/waypoints.js"></script> -->
+  <script type="text/javascript" src="js/zepto.waypoints.js"></script>
+  <script type="text/javascript" src="js/waypoint.js"></script>
 
 </html>
