@@ -313,8 +313,8 @@ body {
   left:0;
   z-index: 1;
 
--webkit-transition: .5s;
-  transition: .5s;
+-webkit-transition: .25s;
+  transition: .05s;
 }
 
 .subnav.sticky {
