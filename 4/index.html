@@ -2,34 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Airbnb Careers Remake</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/styles.css">
 
   </head>
 
   <body>
+
+
+
       <section id="hero">
-        <div class="container">
-          <ul class="mini-nav">
-            <li><a class="active" href="#">Welcome</a></li>
-            <li><a href="#">Departments</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">Engineers</a></li>
-            <li><a href="#">University</a></li>
+        <div class="main-nav">
+          <a class="main-logo" href="#"><img src="img/icons/airbnb-logo.png" alt=""></a>
+          <span class="main-input-holder">
+            <i class="ion-ios-search"></i>
+            <input class="main-search-input" type="text" placeholder="Where are you going?">
+          </span>
+          <ul id="main-nav-trigger" class="main-nav-links pull-right">
+            <li><a href="#">Home</a><img class="home-img" src="img/icons/home.png" alt=""></li>
+            <li><a href="#">Messages</a><img src="img/icons/message.png" alt=""></li>
+            <li><a href="#">Help</a><img class="help-img" src="img/icons/lifesaver.png" alt=""></li>
+            <li><a id="navbar-trigger" href="#">Armando</a>
+              <img class="profile-img" src="https://a2.muscache.com/ic/users/27663497/profile_pic/1423781817/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=50:*&output-format=jpg&output-quality=70" alt="" /></li>
           </ul>
+        </div>
+
+        <div class="container">
+          <div id="subnav-nav" class="subnav">
+            <ul class="mini-nav">
+              <li><a class="active" href="#">Welcome</a></li>
+              <li><a href="#">Departments</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Engineers</a></li>
+              <li><a href="#">University</a></li>
+            </ul>
+          </div>
         </div>
 
         <div class="container-fluid">
           <h1>Create a world that inspires human connection</h1>
         </div>
+
+          <!-- <div class="black-bk-overlay"></div> -->
       </section>
 
       <section id="threes">
-        <div class="container">
+        <div class="container threes-holder">
           <div class="row text-center">
             <div class="col-md-4">
               <img src="img/pen1.png" alt="">
@@ -54,18 +78,18 @@
         <div class="container">
         <div class="row text-center">
           <h2>Together at Airbnb</h2>
-          <p >No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.</p>
+          <p class="main-copy">No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.</p>
         </div>
-        <div class="row">
+        <div class="row together-holder">
           <div class="col-md-8">
-            <img src="img/big-img.png" alt="">
+            <img class="img-responsive main-img" src="img/big-img.png" alt="">
           </div>
           <div class="col-md-4">
             <div class="row">
-              <img src="img/sub-img.png" alt="">
+              <img class="img-responsive top-position-img" src="img/sub-img.png" alt="">
             </div>
             <div class="row">
-              <img src="img/sub-img-b.png" alt="">
+              <img class="img-responsive bottom-position-img"src="img/sub-img-b.png" alt="">
             </div>
           </div>
         </div>
@@ -116,67 +140,94 @@
           </div>
 
           <div class="row learn-holder-row">
+              <!-- <div class="col-md-1"></div> -->
             <div class="col-md-1">
               <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg" alt="">
             </div>
-            <div class="col-md-5 learning-box">
+            <div class="col-md-4 learning-box">
               <p>The world is counting on you.
-                 Alison Johnson
-                 Former VP marketing @ Apple
+
+                <span>
+                   Alison Johnson <br>
+                   Former VP marketing @ Apple
+                </span>
                </p>
             </div>
+            <!-- <div class="col-md-1"></div> -->
             <div class="col-md-1">
               <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg" alt="">
             </div>
-            <div class="col-md-5 learning-box">
+            <div class="col-md-4 learning-box">
               <p>The world is counting on you.
-                 Alison Johnson
-                 Former VP marketing @ Apple
+                <br>
+                <span>
+                   Alison Johnson <br>
+                   Former VP marketing @ Apple
+                </span>
+
                </p>
             </div>
           </div>
 
           <div class="row learn-holder-row">
+              <!-- <div class="col-md-1"></div> -->
             <div class="col-md-1">
               <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg" alt="">
             </div>
-            <div class="col-md-5 learning-box">
-              <p>The world is counting on you.
-                 Alison Johnson
-                 Former VP marketing @ Apple
+            <div class="col-md-4 learning-box">
+              <p>The woooooorld is counting on you.
+
+                <span>
+                   Alison Johnson <br>
+                   Former VP marketing @ Apple
+                </span>
                </p>
             </div>
+            <!-- <div class="col-md-1"></div> -->
             <div class="col-md-1">
               <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg" alt="">
             </div>
-            <div class="col-md-5 learning-box">
+            <div class="col-md-4 learning-box">
               <p>The world is counting on you.
-                 Alison Johnson
-                 Former VP marketing @ Apple
+                <br>
+                <span>
+                   Alison Johnson <br>
+                   Former VP marketing @ Apple
+                </span>
+
                </p>
             </div>
           </div>
 
           <div class="row learn-holder-row">
+              <!-- <div class="col-md-1"></div> -->
             <div class="col-md-1">
               <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg" alt="">
             </div>
-            <div class="col-md-5 learning-box">
-              <p>The eeeworld is counting on you.</p>
-
-              <p>   Alison Johnson
-                 Former VP marketing @ Apple</p>
-            </div>
-            <div class="col-md-1">
-              <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg" alt="">
-            </div>
-            <div class="col-md-5 learning-box">
+            <div class="col-md-4 learning-box">
               <p>The world is counting on you.
-                 Alison Johnson
-                 Former VP marketing @ Apple
+
+                <span>
+                   Alison Johnson <br>
+                   Former VP marketing @ Apple
+                </span>
                </p>
             </div>
+            <!-- <div class="col-md-1"></div> -->
+            <div class="col-md-1">
+              <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg" alt="">
             </div>
+            <div class="col-md-4 learning-box">
+              <p>The world is counting on you.
+                <br>
+                <span>
+                   Alison Johnson <br>
+                   Former VP marketing @ Apple
+                </span>
+
+               </p>
+            </div>
+          </div>
           </div>
           <div class="row">
             <p class="others">Others include: Mike Holston, Jawed Karim, Maynard Webb, Greg McAdoo, Reid Hoffman, Avie Tevanian, Jeff Jordan, Rohan Oza, Ron Conway, Greg Fant, Gregory Waldorf, David Chiu, Chris Curtis, Josh Silverman, John Maeda</p>
@@ -189,6 +240,7 @@
             <div class="row people-carousel">
               <div class="col-md-4">
                 <img src="img/person-a.png" alt="">
+                <i class="fa fa-play-circle"></i>
                 <p>Our first guest Amol</p>
               </div>
               <div class="col-md-4">
@@ -197,15 +249,32 @@
               </div>
               <div class="col-md-4">
                 <img src="img/person-c.png" alt="">
+                  <i class="fa fa-play-circle"></i>
+                  <p>Our Interns</p>
+              </div>
+              <div class="col-md-4">
+                <img src="img/person-c.png" alt="">
+                <i class="fa fa-play-circle"></i>
                 <p>Our Parents</p>
               </div>
+
+
+              <span class="arrow-holder">
+                <a href="#">
+                  <i class="ion-ios-arrow-left"></i>
+                </a>
+                <a href="#">
+                  <i class="ion-ios-arrow-right"></i>
+                </a>
+              </span>
+
             </div>
         </div>
       </section>
 
-      <section id="apply">
-          <div class="row text-center">
-            <h2>Apply Today and Change the Travel Industry</h2>
+      <section id="apply" class="text-center">
+        <h2>Apply Today and Change the Travel Industry</h2>
+          <div class="row apply-today-holder">
             <div class="col-md-4">
               <p>World-class Health Care</p>
               <p>Daily Meals and Snacks</p>
@@ -227,15 +296,76 @@
       </section>
 
       <section id="footer">
-        <div class="row">
+        <div class="row text-center">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-offset-1 col-md-4">
+              <span class="select-holder">
+                <select class="language-picker" data-style="btn-primary" >
+                  <option>English</option>
+                  <option>English</option>
+                  <option>English</option>
+                  <option>English</option>
+                  <option>English</option>
+                  <option>English</option>
+                  <option>English</option>
+                  <option>English</option>
+                  <option>English</option>
+                </select>
+
+                <select class="currency-picker" data-style="btn-primary" >
+                  <option>USD</option>
+                  <option>USD</option>
+                  <option>USD</option>
+                  <option>USD</option>
+                  <option>USD</option>
+                  <option>USD</option>
+                  <option>USD</option>
+                </select>
+              </span>
+            </div>
+            <div class="col-md-7 ">
+              <ul class="footer-content list-1">
+                <li>Company</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Policies</a></li>
+                <li><a href="#">Disaster Response</a></li>
+                <li><a href="#">Terms &amp; Privacy</a></li>
+              </ul>
+              <ul class=" footer-content list-2">
+                <li>Discover</li>
+                <li><a href="#">Trust & Safety</a></li>
+                <li><a href="#">Invite Friends</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Airbnb Picks</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Support NYC</a></li>
+                <li><a href="#">Business Travel</a></li>
+                <li><a href="#">Site Map</a></li>
+              </ul>
+              <ul class=" footer-content list-3">
+                <li>Why Host</li>
+                <li><a href="#">Hospitality</a></li>
+                <li><a href="#">Responsible Hosting</a></li>
+                <li><a href="#">Home Safety</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div class="row text-center">
+
         <div class="separator"></div>
           <h6>Join Us On </h6>
           <ul class="social">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
@@ -243,7 +373,7 @@
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
           </ul>
 
-          <p class="copyright">ç Airbnb, Inc.</p>
+          <p class="copyright">© Airbnb, Inc.</p>
         </div>
       </section>
 
@@ -252,7 +382,7 @@
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
-  <!-- <script type="text/javascript" src="js/zeptos.waypoints.js"></script>
-  <script type="text/javascript" src="js/waypoints.js"></script> -->
+  <script type="text/javascript" src="js/zepto.waypoints.js"></script>
+  <script type="text/javascript" src="js/waypoint.js"></script>
 
 </html>
