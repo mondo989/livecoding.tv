@@ -73,12 +73,16 @@
 
 
 #apply {
-  padding: 120px 0;
+  padding: 60px 0 120px;
   background: #ffb400;
 }
 #apply h2, #apply p {
   color: white;
 }
+#apply h2 {
+  margin-bottom: 50px;
+}
+
 #apply .cta-btn {
   background: white;
   color: black;
@@ -93,7 +97,42 @@
   text-decoration: none;
 }
 
+#footer {
+  background: url('https://a1.muscache.com/airbnb/static/footer/background-7c73b7858fe7c4bc03505fc1f7f672fd.png'), #2b2d2e;
+  padding: 120px 0;
+  color: white;
+}
 
+#footer h6 {
+  color: white;
+}
+#footer .separator {
+  background: white;
+  height: 1px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#footer ul.social {
+  width: 600px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+#footer ul.social li{
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, .2);
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 120px;
+  margin: 10px 5px;
+
+}
+
+.social li i {
+  color: white!important;
+  margin-top: 10px;
+  font-size: 19px;
+}
 
 
 .learning-box {
@@ -136,4 +175,29 @@ ul.mini-nav li{
 
 ul.mini-nav li a {
   color: white;
+}
+
+.people-carousel {
+  position: relative;
+  width: 80%;
+  margin:0 auto;
+}
+.people-carousel img {
+  width: 100%;
+}
+.people-carousel p {
+  margin-top: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+p.others {
+  max-width: 600px;
+  font-style: italic;
+  margin: 20px auto 80px auto;
+  opacity: .7;
+}
+
+.copyright {
+  color: rgba(255,255,255, .4);
 }
